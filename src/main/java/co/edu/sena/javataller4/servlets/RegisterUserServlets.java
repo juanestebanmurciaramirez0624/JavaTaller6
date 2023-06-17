@@ -1,4 +1,4 @@
-package servlets;
+package co.edu.sena.javataller4.servlets;
 
 import java.io.IOException;
 import java.sql.SQLException;
@@ -12,7 +12,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet("/formUser")
-public class RegistreUserServlet extends HttpServlet{
+public class RegistreUserServlets extends HttpServlet{
   @Override
   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException { //NO SE USA Super
     response.setContentType("text/html");
