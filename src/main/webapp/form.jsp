@@ -42,7 +42,7 @@
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </div>
                 <div class="container">
-                    <p>¿Ya tiene cuenta? <a href="../index.jsp">Inicie Secion</a></p>
+                    <p>¿Ya tiene cuenta? <a href="index.jsp">Inicie Secion</a></p>
                 </div>
             </form>
         </div>

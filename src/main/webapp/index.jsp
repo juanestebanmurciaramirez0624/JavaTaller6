@@ -8,10 +8,10 @@
   <meta name="keywords" content="HTML, CSS, Java">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login de usuarios</title>
-  <link rel="icon" href="view/img/icon.png" type="image/x-icon" sizes="16x16">
+  <link rel="icon" href="img/icon.png" type="image/x-icon" sizes="16x16">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-  <link rel="stylesheet" href="view/css/styleslogin.css">
+  <link rel="stylesheet" href="css/styleslogin.css">
 </head>
 <body>
 <div class="container">
@@ -41,7 +41,7 @@
           <button type="submit" class="btn btn-primary">Ingresar</button>
         </div>
         <div class="container">
-          <p>¿No tiene cuenta? <a href="view/form.jsp">Registrarse</a></p>
+          <p>¿No tiene cuenta? <a href="form.jsp">Registrarse</a></p>
         </div>
       </form>
     </div>
