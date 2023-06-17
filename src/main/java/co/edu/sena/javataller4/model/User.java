@@ -11,16 +11,15 @@ public class User {
         
     }
 
-    public User(String user_firstname, String user_lastname, String user_email, String user_password) {
+    public User(Integer user_id, String user_firstname, String user_lastname, String user_email, String user_password) {
+        this.user_id = user_id;
         this.user_firstname = user_firstname;
         this.user_lastname = user_lastname;
         this.user_email = user_email;
         this.user_password = user_password;
     }
 
-
-    public User(Integer user_id, String user_firstname, String user_lastname, String user_email, String user_password) {
-        this.user_id = user_id;
+    public User(String user_firstname, String user_lastname, String user_email, String user_password) {
         this.user_firstname = user_firstname;
         this.user_lastname = user_lastname;
         this.user_email = user_email;

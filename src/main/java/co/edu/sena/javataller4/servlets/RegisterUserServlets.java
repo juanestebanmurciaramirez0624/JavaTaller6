@@ -39,7 +39,7 @@ public class RegistreUserServlet extends HttpServlet{
       System.out.println ("Ocurrio un error");
     }
     else {
-      System.out.println ("Todo bien");
+      System.out.println ("Todo salio bien");
     }
     }
   }
